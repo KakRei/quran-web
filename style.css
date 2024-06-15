@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+@font-face {
+    font-family: "Hafs";
+    src: url(font/font.ttf) format("truetype");
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #003333;
+}
+.content-verse {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 5px;
+    background-color: #206040;
+    border-radius: 7px;
+}
+.text-container {
+    margin: 10px 25px;
+}
+.content-text {
+    font-size: 30px;
+    font-family: "Hafs", sans-serif;
+    color: #fff;
+    word-wrap: break-word;
+    direction: rtl;
+    text-align: right;
+}
+
+/* AYAH IMAGE */
+.img-ayah {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.img-verse {
+    width: 60px;
+    height: 60px;
+    position: relative;
+}
+.the-ayah {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: #fff;
+}
